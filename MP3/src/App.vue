@@ -1,4 +1,5 @@
 <script>
+
 import ContentFeed from './ContentFeed.vue'
 import LeftNavbar from './LeftNavbar.vue'
 import RightNavbar from './RightNavbar.vue'
@@ -37,11 +38,7 @@ export default {
   </div>
 </template>
 
-<script>
-export default {
-  name: "App",
-};
-</script>
+
 
 <style>
 #app {
