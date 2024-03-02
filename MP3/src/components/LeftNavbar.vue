@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
   <div class="left-navbar">
     <ul>
       <li><a href="#">Profile</a></li>
