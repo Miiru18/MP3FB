@@ -1,3 +1,23 @@
+<script>
+import ContentFeed from './ContentFeed.vue'
+import LeftNavbar from './LeftNavbar.vue'
+import RightNavbar from './RightNavbar.vue'
+import StoryCarousel from './StoryCarousel.vue'
+import TopNavbar from './TopNavbar.vue'
+
+export default {
+  name: 'App',
+  components: {
+    ContentFeed,
+    LeftNavbar,
+    RightNavbar,
+    StoryCarousel,
+    TopNavbar
+  }
+}
+</script>
+
+
 <template>
   <div id="app">
     <header>
@@ -7,6 +27,11 @@
       <section class="news-feed">
         <h2>News Feed</h2>
         <!-- Add more content to mimic the Facebook homepage -->
+        <ContentFeed />
+        <LeftNavbar />
+        <RightNavbar />
+        <StoryCarousel />
+        <TopNavbar />
       </section>
     </main>
   </div>
