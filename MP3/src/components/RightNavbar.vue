@@ -50,10 +50,3 @@ export default {
   background-color: #29487d; /* Darker background color on hover */
 }
 </style>
-=======
-    <div>
-      <h1></h1>
-      <p></p>
-    </div>
-  </template>
->>>>>>> 0246eafd35eac976279ee7f0ef4130409a9406df
