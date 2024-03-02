@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="left-navbar">
     <ul>
       <li><a href="#">Profile</a></li>
@@ -48,3 +49,10 @@ export default {
   color: #4267b2; /* Facebook blue */
 }
 </style>
+=======
+    <div>
+      <h1></h1>
+      <p></p>
+    </div>
+  </template>
+>>>>>>> 0246eafd35eac976279ee7f0ef4130409a9406df

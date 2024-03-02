@@ -1,9 +1,10 @@
 <script>
-// import ContentFeed from './ContentFeed.vue'
-import LeftNavbar from "./components/LeftNavbar.vue";
-import RightNavbar from "./components/RightNavbar.vue";
-// import StoryCarousel from './StoryCarousel.vue'
-import TopNavbar from "./components/TopNavbar.vue";
+
+import ContentFeed from './ContentFeed.vue'
+import LeftNavbar from './LeftNavbar.vue'
+import RightNavbar from './RightNavbar.vue'
+import StoryCarousel from './StoryCarousel.vue'
+import TopNavbar from './TopNavbar.vue'
 
 export default {
   name: "App",

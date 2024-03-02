@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="top-nav">
     <div class="logo">
       <img
@@ -81,3 +82,10 @@ export default {
   font-weight: bold;
 }
 </style>
+=======
+    <div>
+      <h1>Hello</h1>
+      <p></p>
+    </div>
+  </template>
+>>>>>>> 0246eafd35eac976279ee7f0ef4130409a9406df
