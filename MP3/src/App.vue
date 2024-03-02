@@ -1,51 +1,47 @@
 <script>
-
-import ContentFeed from './ContentFeed.vue'
-import LeftNavbar from './LeftNavbar.vue'
-import RightNavbar from './RightNavbar.vue'
-import StoryCarousel from './StoryCarousel.vue'
-import TopNavbar from './TopNavbar.vue'
+// import ContentFeed from './ContentFeed.vue'
+import LeftNavbar from "./components/LeftNavbar.vue";
+import RightNavbar from "./components/RightNavbar.vue";
+// import StoryCarousel from './StoryCarousel.vue'
+import TopNavbar from "./components/TopNavbar.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    ContentFeed,
+    TopNavbar,
+    // ContentFeed,
     LeftNavbar,
     RightNavbar,
-    StoryCarousel,
-    TopNavbar
-  }
-}
+    // StoryCarousel,
+  },
+};
 </script>
 
-
 <template>
+  <TopNavbar />
   <div id="app">
     <header>
       <h1>Facebook</h1>
     </header>
     <main>
+      <LeftNavbar />
       <section class="news-feed">
         <h2>News Feed</h2>
         <!-- Add more content to mimic the Facebook homepage -->
         <ContentFeed />
-        <LeftNavbar />
+
         <RightNavbar />
         <StoryCarousel />
-        <TopNavbar />
       </section>
     </main>
   </div>
 </template>
-
-
 
 <style>
 #app {
   font-family: "Arial", sans-serif;
   text-align: center;
   color: #1c1e21;
-  margin-top: 60px;
 }
 
 header {
