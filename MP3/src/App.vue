@@ -13,7 +13,7 @@ export default {
     // ContentFeed,
     LeftNavbar,
     RightNavbar,
-    // StoryCarousel,
+    StoryCarousel,
   },
 };
 </script>

@@ -17,8 +17,8 @@
       <a href="#">Messages</a>
     </div>
     <div class="user-profile">
-      <img src="https://via.placeholder.com/150" alt="User Profile" />
-      <span>John Doe</span>
+      <img src="../../images/luis.jpg" alt="User Profile" />
+      <span>Luis Llarena</span>
     </div>
   </div>
 </template>
